@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header-icons {
+      display: flex;
+    }
+
+    .header-icons a {
+      margin-right: 10px;
+    }
+
+    .menu ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .menu ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    .menu ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .portfolio-example {
+      padding: 20px;
+    }
+
+    .welcome-section {
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+
+    .image-section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+
+    /* Adjustments for mobile devices */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .header-icons {
+        margin-top: 10px;
+      }
+
+      .menu ul {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      .menu ul li {
+        display: block;
+        margin-right: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tableau Portfolio</h1>
+    <div class="header-icons">
+      <a href="http://www.linkedin.com/in/rohit-1997-tiwari" target="_blank"><img src="linkedIN.png" alt="LinkedIn" width="50" height="50"></a>
+      <a href="https://public.tableau.com/app/profile/rohit.tiwari5353" target="_blank"><img src="tab.png" alt="Tableau Public" width="50" height="50"></a>
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Welcome</a></li>
+        <li><a href="saless.html">Sales Management Project</a></li>
+        <!-- <li><a href="#">Project 2</a></li> -->
+        <li><a href="resumee.html">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- <section class="portfolio-example">
+    
+  </section> -->
+  <section class="welcome-section">
+    <h2>Data Visualization Portfolio Project – Sales Management!</h2>
+    <img src="dash.png" alt="Sales Visualization" class="sales-image" width="70%" height="70%">
+  </section>
+<!-- Before Cleaning -->
+<section class="welcome-section">
+    <h2>Data before cleansing!</h2>
+    <img src="beforCleaning.png" alt="Sales Visualization" class="sales-image"> 
+  </section>
+<!-- Data Cleaning using Tableau Prep -->
+<section class="welcome-section">
+    <h2>Data Cleaning using Tableau Prep!</h2>
+    <img src="tabPrep.png" alt="Sales Visualization" class="sales-image"> 
+  </section>
+<!-- After Cleaning -->
+<section class="welcome-section">
+    <h2>Data After cleansing!</h2>
+    <img src="afterCleaning.png" alt="Sales Visualization" class="sales-image"> 
+  </section>
+<!-- Clickabke link for Tableau Public-->
+<section class="welcome-section">
+    <h2>Interactive Tableau Public dashboard available for user exploration. Please visit Tableau Public to interact with the dashboard!</h2>
+    <a href="https://public.tableau.com/app/profile/rohit.tiwari5353/viz/sales_17143031308930/Final" target="_blank"><img src="dash.png" alt="Sales Visualization" class="sales-image"></a>
+  </section>
+
+</body>
+</html>

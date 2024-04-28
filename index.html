@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header-icons {
+      display: flex;
+    }
+
+    .header-icons a {
+      margin-right: 10px;
+    }
+
+    .menu ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .menu ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    .menu ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .portfolio-example {
+      padding: 20px;
+    }
+
+    .welcome-section {
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+
+    .image-section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+
+    /* Adjustments for mobile devices */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .header-icons {
+        margin-top: 10px;
+      }
+
+      .menu ul {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      .menu ul li {
+        display: block;
+        margin-right: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tableau Portfolio</h1>
+    <div class="header-icons">
+      <a href="http://www.linkedin.com/in/rohit-1997-tiwari" target="_blank"><img src="linkedIN.png" alt="LinkedIn" width="50" height="50"></a>
+      <a href="https://public.tableau.com/app/profile/rohit.tiwari5353" target="_blank"><img src="tab.png" alt="Tableau Public" width="50" height="50"></a>
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Welcome</a></li>
+        <li><a href="saless.html">Sales Management Project</a></li>
+        <!-- <li><a href="#">Project 2</a></li> -->
+        <li><a href="resumee.html">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- <section class="portfolio-example">
+    
+  </section> -->
+  <section class="welcome-section">
+    <h2>About Me!</h2>
+    <p>I'm Rohit Tiwari, a Junior Tableau Developer with over 2 years of experience in data visualization and analytics. My professional journey includes tenure at Tata Consultancy Services, where I honed my skills in leveraging Tableau for impactful insights and decision-making.</p>
+<h2>Experience Highlights:</h2>
+<p><ul>Position: Junior Tableau Developer</ul>
+<ul>Company: Tata Consultancy Services</ul>
+<ul>Experience: 2+ years</ul></p>
+
+<h2>Key Skills:</h2>
+<p><ul>Tableau Desktop: Proficient in creating insightful visualizations to extract actionable insights.</ul>
+<ul>Tableau Prep: Skilled in data cleaning and preparation for analysis using Tableau Prep.</ul>
+<ul>Tableau Server: Experienced in publishing dashboards and collaborating with stakeholders via Tableau Server.</ul>
+<ul>MySQL: Familiarity with data extraction and manipulation using MySQL.</ul></p>
+  </section>
+<section class="welcome-section">
+<h2>Work and Technology!</h2>
+<p>In my previous project, I utilized Tableau for Data Visualization. The typical process we followed involved initially receiving the INCIDENT via ServiceNow from the client, along with their full requirements. Often, the client would provide their requirements through an Excel sheet, which we then used for visualization purposes, or we retrieved the data from the MySQL server.</p>
+
+<p>Once we received the client's requirements, we commenced work on the incident. Upon obtaining the data, whether in CSV, Excel, or MySQL format, we proceeded with data cleaning using Tableau Prep.</p>
+
+<p>Following data cleaning, we addressed any missing data or uncertainties by communicating with the user and implementing necessary changes as instructed by the client.Upon completion of the cleaning phase, we proceeded with visualization.After visualization, we published the dashboard on Tableau Server and raised a ticket. Once the user approved, we updated the INC and closed it.</p>
+
+<p>In the event that users required any changes to the visualization, we performed them directly on Tableau Server. This involved creating extracts and refreshing data. Additionally, we conducted operations such as sending visualizations via email at regular intervals.</p>            
+</section>
+</body>
+</html>
